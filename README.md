@@ -1,4 +1,4 @@
-# Design Patterns Chapter 1: The Duck Simulator Program
+# Design Patterns Chapter 1: The Duck Simulator Program (Strategy Pattern)
 
 This repo is the exercise from Chapter 1 of [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124).
 
