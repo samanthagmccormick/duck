@@ -68,6 +68,7 @@ Create a test class to test everything out:
 
 Dynamic Behavior 
 
--
+- It also allows us to dynamically switch an object's interfaces on the fly. See 
+`MiniDuckSimulator.createNewModelDuck()`
 
 

@@ -4,7 +4,7 @@ public class MiniDuckSimulator {
 
   public static void main(final String[] args) {
 
-    // createNewMallardDuck();
+    createNewMallardDuck();
 
     createNewModelDuck();
 
@@ -12,6 +12,7 @@ public class MiniDuckSimulator {
 
   private static void createNewMallardDuck() {
     Duck mallard = new MallardDuck();
+    mallard.display();
     mallard.performQuack();
     mallard.performFly();
   }
@@ -19,12 +20,14 @@ public class MiniDuckSimulator {
   private static void createNewModelDuck() {
     Duck modelDuck = new ModelDuck();
 
-    // modelDuck.performFly();
+    modelDuck.performFly();
 
     modelDuck.display();
 
     // Change this duck's fly behavior on the fly!
     modelDuck.setFlyBehavior(new FlyRocketPowered());
+
+    System.out.println("interface (behavior) should now be changed to FlyRocketPowered...");
 
     modelDuck.performFly();
   }
